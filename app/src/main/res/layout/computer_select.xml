@@ -1,0 +1,33 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+<Button
+    android:id="@+id/btnCommputervsPlayer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Computer vs Player"
+
+    />
+<Button
+    android:id="@+id/btnPlayervsComputer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Player vs Computer"
+    android:layout_centerHorizontal="true"
+
+    />
+    <Button
+        android:id="@+id/btnnCommputervsPlayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer vs Player"
+
+        />
+</LinearLayout>

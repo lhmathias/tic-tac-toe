@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/laytwo"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/Linear_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:orientation="vertical"
+        android:visibility="visible"
+        >
+        <Button
+            android:text="ON/OFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnONOFF"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:text="Enable Discoverable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDiscoverable_on_off"
+            android:onClick="btnEnableDisable_Discoverable"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFindUnpairedDevices"
+            android:text="Discover"
+            android:onClick="btnDiscover"
+            android:layout_margin="5dp"
+            />
+
+        <ListView
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/btnStartConnection"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/lvNewDevices"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/btnStartConnection"
+            android:text="Start Connection"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="90"
+        android:background="@drawable/dd"
+        android:id="@+id/table_layout"
+        android:visibility="invisible"
+        >
+
+
+        <TableRow
+            android:layout_weight="30"
+            android:weightSum="90"
+            >
+            <Button
+                android:id="@+id/A1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:textSize="72dp"
+
+
+                />
+            <Button
+                android:id="@+id/A2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:textSize="72dp"
+
+                />
+            <Button
+                android:id="@+id/A3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:textSize="72dp"
+
+                />
+        </TableRow>
+        <TableRow
+            android:layout_weight="30"
+            android:weightSum="90"
+            >
+            <Button
+                android:id="@+id/B1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:textSize="72dp"
+                />
+
+            <Button
+                android:id="@+id/B2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:textSize="72dp"
+                />
+
+            <Button
+                android:id="@+id/B3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:textSize="72dp"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="30"
+            android:weightSum="90"
+            >
+            <Button
+                android:id="@+id/C1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:textSize="72dp"
+                />
+            <Button
+                android:id="@+id/C2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:textSize="72dp"
+
+                />
+
+            <Button
+                android:id="@+id/C3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="30"
+                android:textSize="72dp"
+                />
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:weightSum="90"
+    android:background="@drawable/dd">
+
+
+    <TableRow
+        android:layout_weight="30"
+        android:weightSum="90"
+        >
+        <Button
+            android:id="@+id/A1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:textSize="72dp"
+
+
+            />
+        <Button
+            android:id="@+id/A2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:textSize="72dp"
+
+            />
+        <Button
+            android:id="@+id/A3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:textSize="72dp"
+
+            />
+    </TableRow>
+    <TableRow
+        android:layout_weight="30"
+        android:weightSum="90"
+        >
+        <Button
+            android:id="@+id/B1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:textSize="72dp"
+            />
+
+        <Button
+            android:id="@+id/B2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:textSize="72dp"
+            />
+
+        <Button
+            android:id="@+id/B3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:textSize="72dp"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="30"
+        android:weightSum="90"
+        >
+        <Button
+            android:id="@+id/C1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:textSize="72dp"
+            />
+        <Button
+            android:id="@+id/C2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:textSize="72dp"
+
+            />
+
+        <Button
+            android:id="@+id/C3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:textSize="72dp"
+            />
+    </TableRow>
+
+
+</TableLayout>
